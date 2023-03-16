@@ -1,0 +1,56 @@
+.Restaurant {
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+  height: 100vh;
+}
+.RestaurantContainerOben {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url('../../assets/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  justify-content: center;
+  align-items: center;
+}
+.Willkommen {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 3rem;
+  color: rgb(205, 179, 112);
+
+  margin-top: 0rem;
+  margin-bottom: 10rem;
+}
+.Explore {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(205, 179, 112);
+  width: 60rem;
+  margin-top: -4rem;
+  margin-bottom: 8rem;
+}
+.Fotos {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+  
+}
+.Fisch, .Decor, .Chef, .Prepair  {
+  height: 34rem;
+  box-shadow: 0rem 0.5rem 1rem rgb(145, 108, 108);
+  
+  border-radius:0 2rem 0 2rem;
+}
+
+

@@ -1,0 +1,32 @@
+.Main {
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+  height: 100vh;
+  
+
+
+}
+.MainContainerOben {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url('../../assets/restaurant-lighting.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0rem 0.5rem 2rem white;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+.LogoR {
+  width: 60rem;
+}
+
+
+

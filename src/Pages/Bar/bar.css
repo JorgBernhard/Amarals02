@@ -1,0 +1,115 @@
+.Bar {
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+  height: 100vh;
+}
+.BarContainerOben {
+  display: flex;
+  flex-direction: row;
+  
+  width: 100vw;
+  height: 100vh;
+  
+  background-image: url('../../assets/backfrutas.png');
+  background-size: cover;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+}
+.Herzlich {
+  position: absolute;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 4rem;
+  color: rgb(205, 179, 112);
+  margin-top: -55rem;
+}
+.Bar01{
+  width: 42rem;
+  font-family: 'Nanum Myeongjo', serif;
+  
+  padding: 5rem;
+  background-color: rgba(48, 30, 23, 0.7);
+  border-radius: 2rem;
+  border: solid 0.4rem rgb(205, 179, 112);
+  transform: rotate(14deg);
+}
+.Garantierter {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 2.4rem;
+  color: #ffffff;
+  
+}
+.GarantiertText {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.6rem;
+  color: #ffffff;
+  text-align: justify;
+ 
+}
+.Bar02{
+  width: 42rem;
+  font-family: 'Nanum Myeongjo', serif;
+  
+  padding: 5rem;
+  background-color: rgba(48, 30, 23, 0.7);
+  border-radius: 2rem;
+  border: solid 0.4rem rgb(205, 179, 112);
+  transform: rotate(-10deg);
+}
+
+.Garantierter2 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 2.4rem;
+  color: #ffffff;
+  
+}
+.GarantiertText2 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.6rem;
+  color: #ffffff;
+  text-align: justify;
+}
+.Bar03{
+  width: 42rem;
+  padding: 3rem;
+  background-color: rgba(48, 30, 23, 0.7);
+  border-radius: 2rem;
+  border: solid 0.4rem rgb(205, 179, 112);
+  margin-top: 5rem;
+  transform: rotate(4deg);
+  align-items: center;
+  justify-content: center;
+}
+.Drink {
+  width: 35rem;
+  height: 35rem;
+  border-radius: 2rem;
+}
+
+.Bar04{
+  width: 42rem;
+  font-family: 'Nanum Myeongjo', serif;
+  
+  padding: 5rem;
+  background-color: rgba(48, 30, 23, 0.7);
+  border-radius: 2rem;
+  border: solid 0.4rem rgb(205, 179, 112);
+  margin-top: 5rem;
+  transform: rotate(-16deg);
+}
+.Garantierter4 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 2.4rem;
+  color: #ffffff;
+  
+}
+.GarantiertText4 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.6rem;
+  color: #ffffff;
+  text-align: justify;
+}
